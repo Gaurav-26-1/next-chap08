@@ -23,7 +23,9 @@ export default function Menu() {
             </li>
             <li>
             <Link href="/members">メンバー</Link>
-
+            </li>
+          <li>
+            <Link href="/acess">アクセス</Link>
             </li>
             <li>
             <Link href="/contact">お問い合わせ</Link>

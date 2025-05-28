@@ -2,7 +2,6 @@
     text-align: center;
     margin-bottom: 40px;
   }
-
   .list {
     display: flex;
     align-items: flex-start;
@@ -31,6 +30,8 @@
 
   .profile {
     font-size: 0.9rem;
+     --color-text-main: #043c78;   
+    color: var(--color-text-main);
   }
 
   .footer {
@@ -51,3 +52,4 @@
   .empty {
     margin-bottom: 40px;
   }
+   

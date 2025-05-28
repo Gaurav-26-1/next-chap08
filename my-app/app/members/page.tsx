@@ -74,29 +74,6 @@ export default async function Page() {
         ))}
       </ul>
     )}
-
-    {/* 三項演算子
-    const age = 20;
-    return <p>{age >= 20 ? "ビール" : "ジュース"}</p>;
-
-Excelのifの感じ
-画面上で試す場合は.. {(() => { ?  })()} で挟む　※アロー関数　即時実行関数
-        {(() => {
-            const age = 30;
-            return <p>{age >= 21 ? "ビール" : "ジュース"}</p>;
-        })()}
-
-
-ifを使う場合
-        {(() => {
-            const age = 30;
-            if (age >= 21) {
-                return <p>ビール</p>;
-            } else {
-                return <p>ジュース</p>;
-            }
-        })()} */}
-
     </div>
     );
   }
